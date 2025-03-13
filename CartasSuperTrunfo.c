@@ -14,7 +14,7 @@ char codigo1[4], codigo2[4];     //codigo da carta em formato A01, B02...
 char nome1[50], nome2[50];     //nome da cidade
 int populacao1, populacao2;     //número de habitantes
 float area1, area2;     //área em km² 
-float pib1; pib2;     //PIB em Bilhões de reais
+float pib1, pib2;     //PIB em Bilhões de reais
 int pontosturisticos1, pontosturisticos2;     //Quantidade de pontos turísticos
 
     //Entrada de dados da primeira carta
@@ -37,7 +37,7 @@ scanf ("%d", &pontosturisticos1);
     
     //Entrada de dados da segunda carta
 
-printf("\nInsira os dados da primeira carta:\n");
+printf("\nInsira os dados da segunda carta:\n");
 printf("Estado (A-H): ");
 scanf(" %c", &estado2); //O espaço que vem antes de %C é para evitar quebra de linha
 printf("Código da carta (exemplo: A01): "); //
@@ -65,7 +65,7 @@ printf("Cidade: %s\n", nome1);
 printf("Habitantes: %d\n", populacao1);
 printf("Área km²: %f\n", area1);
 printf("PIB (em bilhões): %f\n", pib1);
-printf("Pontos Turísticos: %d\n, pontosturisticos1);
+printf("Pontos Turísticos: %d\n", pontosturisticos1);
 
     //exibir carta n° 02
     
@@ -76,7 +76,7 @@ printf("Cidade: %s\n", nome2);
 printf("Habitantes: %d\n", populacao2);
 printf("Área km²: %f\n", area2);
 printf("PIB (em bilhões): %f\n", pib2);
-printf("Pontos Turísticos: %d\n, pontosturisticos2);
+printf("Pontos Turísticos: %d\n", pontosturisticos2);
     
 printf("\n================================\n");
     return 0;

@@ -10,7 +10,7 @@ int main() {
     //declaração de variáveis para armazenar dados das cartas
     
 char estado1, estado2;     //letra de "A" a "H" para definir o estado
-char caracteres codigo1[4], codigo2[4];     //codigo da carta em formato A01, B02...
+char codigo1[4], codigo2[4];     //codigo da carta em formato A01, B02...
 char nome1[50], nome2[50];     //nome da cidade
 int populacao1, populacao2;     //número de habitantes
 float area1, area2;     //área em km² 

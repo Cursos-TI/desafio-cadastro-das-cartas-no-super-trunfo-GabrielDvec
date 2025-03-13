@@ -21,7 +21,7 @@ int pontosturisticos1, pontosturisticos2;     //Quantidade de pontos turísticos
 
 printf("\nInsira os dados da primeira carta:\n");
 printf("Estado (A-H): ");
-scanf(" %c", &estado1); //O espaço que vem antes de %C é para evitar quebra de linha
+scanf(" %c", &estado1); //O espaço que vem antes de %c é para evitar quebra de linha
 printf("Código da carta (exemplo: A01): "); //
 scanf("%s", codigo1);
 printf("Nome da cidade: ");
@@ -39,7 +39,7 @@ scanf ("%d", &pontosturisticos1);
 
 printf("\nInsira os dados da segunda carta:\n");
 printf("Estado (A-H): ");
-scanf(" %c", &estado2); //O espaço que vem antes de %C é para evitar quebra de linha
+scanf(" %c", &estado2); //O espaço que vem antes de %c é para evitar quebra de linha
 printf("Código da carta (exemplo: A01): "); //
 scanf("%s", codigo2);
 printf("Nome da cidade: ");
